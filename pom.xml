@@ -14,7 +14,6 @@
 		<sonor.projectKey>twitter-api</sonar.projectKey>
   		<sonar.organization>noobindustrie</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>991351ceff0d9e1c82e677146d0f13b9661eb706</sonar.login>
 		<resource.delimiter>@</resource.delimiter>
 		<jib-maven-plugin.version>3.0.0</jib-maven-plugin.version>
 		<springdoc.version>1.5.9</springdoc.version>
