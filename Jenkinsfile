@@ -20,6 +20,13 @@ node {
 			sh "mvn package"
 		}
 	}
+	stage('quality analysis') {
+		withSonarQubeEnv('Sonar') {
+			withMaven(maven: 'maven') {
+				sh "mvn sonar:sonar"
+			}
+		}
+	}
 
 	stage('Build Docker Image') {
 		withMaven(maven: 'maven') {
